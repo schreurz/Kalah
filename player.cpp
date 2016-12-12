@@ -16,6 +16,8 @@ using std::vector;
 using std::default_random_engine; using std::uniform_int_distribution;
 #include <string>
 using std::string;
+#include <algorithm>
+using std::sort; using std::count_if;
 #include "player.h"
 #include "gameplay.h"
 
