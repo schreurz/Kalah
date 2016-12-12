@@ -22,7 +22,7 @@ using std::string;
 #include <fstream>
 using std::ofstream;
 
-#include "gameplay.hpp"
+#include "gameplay.h"
 #include "player.h"
 
 int wrapping_index(size_t size, int index) {
@@ -126,7 +126,7 @@ int move(vector<int> &board, int house_index, Player &p) {
   return move_type;
 }
 
-string board_to_string(vector<int> board, int store1=0, int store2=0) {
+string board_to_string(vector<int> board, int store1, int store2) {
   // Return a string representation of the board
   ostringstream oss;
   
