@@ -25,7 +25,7 @@ using std::ofstream;
 #include "gameplay.h"
 #include "player.h"
 
-int wrapping_index(size_t size, int index) {
+inline int wrapping_index(size_t size, int index) {
   return (index%size);
 }
 

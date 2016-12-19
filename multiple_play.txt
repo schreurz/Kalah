@@ -1,0 +1,25 @@
+Multi-Play data
+Rounds played: 1
+Game rules: (6, 4)
+
+Player 1 (Amazing Strategy)
+Goes first: 0
+Wins: 1
+Losses: 0
+Ties: 0
+Win %: 100
+Average score: 31
+Median score: 31
+Highest score 31
+Lowest score 31
+
+Player 2 (Simple Strategy)
+Goes first: 1
+Wins: 0
+Losses: 1
+Ties: 0
+Win %: 0
+Average score: 17
+Median score: 17
+Highest score: 17
+Lowest score: 17

@@ -96,7 +96,7 @@ bool Player::check_houses(vector<int> board) {
   // returns false if there are rocks in player's houses
   // returning true means game over
   
-  for(int i=index_range[0]; i<=index_range[1]; i++)
+  for(int i=index_range[0]; i<=index_range[1]; ++i)
     if (board[i])
       return false;
   return true;
@@ -104,7 +104,7 @@ bool Player::check_houses(vector<int> board) {
 
 void Player::clear_board(vector<int> &board) {
   // moves all rocks on player's side to store
-  for (int i=index_range[0]; i<=index_range[1];i++) {
+  for (int i=index_range[0]; i<=index_range[1]; ++i) {
     this->store += board[i];
     board[i] = 0;
   }
@@ -112,7 +112,7 @@ void Player::clear_board(vector<int> &board) {
 
 int Player::get_average_score() {
   double ave = 0.0;
-  for(auto itr=this->scores.begin(); itr!=this->scores.end(); itr++) {
+  for(auto itr=this->scores.begin(); itr!=this->scores.end(); ++itr) {
     ave += *itr;
   }
   return ( ave / ((int)this->scores.size()) );

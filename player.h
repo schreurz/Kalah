@@ -6,8 +6,8 @@
 //  Copyright © 2016 Zack Schreur. All rights reserved.
 //
 
-#ifndef player_h
-#define player_h
+#ifndef KALAH_PLAYER_H
+#define KALAH_PLAYER_H
 
 #include <vector>
 using std::vector;
@@ -45,9 +45,9 @@ public:
   int get_lowest_score();
 };
 
-bool at_last_sequence(deque<int>, int);
-vector<int> execute_sequence(deque<int>, vector<int>, Player&);
+inline bool at_last_sequence(deque<int>, int);
+inline vector<int> execute_sequence(deque<int>, vector<int>, Player&);
 deque<int> compare_ms(deque<int>, deque<int>, vector<int>, Player, default_random_engine&);
 deque<int> get_best_ms(Player, vector<int>, default_random_engine&);
 
-#endif /* player_h */
+#endif /* KALAH_PLAYER_H */
