@@ -20,7 +20,7 @@ using std::ofstream;
 
 #include "player.h"
 
-inline int wrapping_index(size_t size, int index);
+int wrapping_index(size_t size, int index);
 int move(vector<int> &board, int house_index, Player &p);
 string board_to_string(vector<int> board, int store1=0, int store2=0);
 int play_game(vector<int> board, Player &p1, Player &p2,
