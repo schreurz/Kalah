@@ -679,11 +679,11 @@ Before move:
 Player 1: 25
 Player 2: 11
 
-Player 1 took from house: 4
-Execute move #1 from sequence: 4 
+Player 1 took from house: 3
+Execute move #1 from sequence: 3 
 
 After move:
-  1 0 1 2 4 1 
+  0 2 0 2 4 1 
 25           11
   0 0 0 1 1 1 
 Player 1: 25
@@ -695,7 +695,7 @@ Player 1 does not play again
 Player 2's turn
 ---------------
 Before:
-  1 0 1 2 4 1 
+  0 2 0 2 4 1 
 25           11
   0 0 0 1 1 1 
 Player 1: 25
@@ -705,7 +705,7 @@ Player 2 took from house: 11
 Move to place last stone in store
 
 After move:
-  1 0 1 2 4 1 
+  0 2 0 2 4 1 
 25           12
   0 0 0 1 1 0 
 Player 1: 25
@@ -717,7 +717,7 @@ Player 2 plays again
 Player 2's turn
 ---------------
 Before:
-  1 0 1 2 4 1 
+  0 2 0 2 4 1 
 25           12
   0 0 0 1 1 0 
 Player 1: 25
@@ -728,7 +728,7 @@ Move closest legal pit to store
 Player 2 captured!
 
 After move:
-  1 0 1 2 4 0 
+  0 2 0 2 4 0 
 25           14
   0 0 0 1 0 0 
 Player 1: 25
@@ -740,17 +740,17 @@ Player 2 does not play again
 Player 1's turn
 ---------------
 Before move:
-  1 0 1 2 4 0 
+  0 2 0 2 4 0 
 25           14
   0 0 0 1 0 0 
 Player 1: 25
 Player 2: 14
 
-Player 1 took from house: 5
-Execute move #1 from sequence: 5 2 
+Player 1 took from house: 4
+Execute move #1 from sequence: 4 5 2 
 
 After move:
-  0 0 1 2 4 0 
+  1 0 0 2 4 0 
 26           14
   0 0 0 1 0 0 
 Player 1: 26
@@ -762,20 +762,42 @@ Player 1 plays again
 Player 1's turn
 ---------------
 Before move:
-  0 0 1 2 4 0 
+  1 0 0 2 4 0 
 26           14
   0 0 0 1 0 0 
 Player 1: 26
 Player 2: 14
 
-Player 1 took from house: 2
-Execute move #2 from sequence: 5 2 
+Player 1 took from house: 5
+Execute move #2 from sequence: 4 5 2 
 
 After move:
-  0 1 2 0 4 0 
-26           14
+  0 0 0 2 4 0 
+27           14
   0 0 0 1 0 0 
-Player 1: 26
+Player 1: 27
+Player 2: 14
+
+Player 1 plays again
+
+---------------
+Player 1's turn
+---------------
+Before move:
+  0 0 0 2 4 0 
+27           14
+  0 0 0 1 0 0 
+Player 1: 27
+Player 2: 14
+
+Player 1 took from house: 2
+Execute move #3 from sequence: 4 5 2 
+
+After move:
+  0 1 1 0 4 0 
+27           14
+  0 0 0 1 0 0 
+Player 1: 27
 Player 2: 14
 
 Player 1 does not play again
@@ -784,10 +806,10 @@ Player 1 does not play again
 Player 2's turn
 ---------------
 Before:
-  0 1 2 0 4 0 
-26           14
+  0 1 1 0 4 0 
+27           14
   0 0 0 1 0 0 
-Player 1: 26
+Player 1: 27
 Player 2: 14
 
 Player 2 took from house: 9
@@ -795,10 +817,10 @@ Move closest legal pit to store
 Player 2 captured!
 
 After move:
-  0 1 2 0 0 0 
-26           19
+  0 1 1 0 0 0 
+27           19
   0 0 0 0 0 0 
-Player 1: 26
+Player 1: 27
 Player 2: 19
 
 ----------

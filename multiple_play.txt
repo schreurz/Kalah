@@ -1,25 +1,25 @@
 Multi-Play data
-Rounds played: 1
+Rounds played: 1000
 Game rules: (6, 4)
 
 Player 1 (Amazing Strategy)
-Goes first: 0
-Wins: 1
+Goes first: 514
+Wins: 1000
 Losses: 0
 Ties: 0
 Win %: 100
-Average score: 31
-Median score: 31
-Highest score 31
-Lowest score 31
+Average score: 30
+Median score: 29
+Highest score 38
+Lowest score 27
 
 Player 2 (Simple Strategy)
-Goes first: 1
+Goes first: 486
 Wins: 0
-Losses: 1
+Losses: 1000
 Ties: 0
 Win %: 0
 Average score: 17
-Median score: 17
-Highest score: 17
-Lowest score: 17
+Median score: 19
+Highest score: 21
+Lowest score: 10
