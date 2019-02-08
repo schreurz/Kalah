@@ -1,5 +1,4 @@
 # Kalah
----
 An AI which is designed to play [Kalah](https://en.wikipedia.org/wiki/Kalah)
 
 ### About
